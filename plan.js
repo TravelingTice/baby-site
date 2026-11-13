@@ -164,26 +164,27 @@ const TASKS = {
     blocks: [{ name: 'Before you vanish', items: [['Hand-over doc: what runs, who decides while you are out', ''], ['Draft your out-of-office', ''], ['Tell the team you may disappear on short notice from now', ''], ['Phone on loud at night from today', '']] }],
   },
   '2027-01-09': {
-    kind: 'night', title: 'Night drill 2: with a plan', mins: 80,
+    kind: 'practice', title: 'Bath, bottle, burp', mins: 25,
     why: '37 weeks today. From here the baby can come any time, so everything essential should be done.',
-    blocks: [
-      { name: 'Before bed', items: [['Agree the shifts with her: who takes which hours once the baby is here', ''], ['Alarms every 2 hours, four times', '']] },
-      { name: 'Every alarm · 20 min out of bed', items: [['Up, diaper change, hold and burp, log it', ''], ['One alarm: make a bottle, or bring her water and a snack', ''], ["One alarm: soothe for the full 20 min with the 5 S's", '']] },
-    ],
-    note: 'Run it the way you would run a real night.',
-  },
-  '2027-01-10': {
-    kind: 'talk', title: 'Debrief and the night plan', mins: 20,
-    blocks: [{ name: 'After the drill', items: [['Sleep in', ''], ['Easier than drill 1? What changed?', ''], ['Write the night-shift plan on one page', '']] }],
+    blocks: [{ name: 'Hands on', items: [['Watch a newborn bath video, set the tub up once', ''], ['Make one bottle start to finish, even if the plan is breast', ''], ['Practise 2 burping holds on the teddy', '']] }],
   },
   '2027-01-12': {
     kind: 'practice', title: 'Labour support practice', mins: 25,
     blocks: [{ name: 'With her', items: [['Install a contraction timer, time 5 pretend ones', ''], ['Practise 3 comfort moves: lower-back pressure, slow breathing together, hip squeeze', ''], ['Say the plan out loud: when to call, when to leave, what to grab', '']] }],
     note: 'Your job in labour: stay calm, keep her drinking, speak up for what she wants.',
   },
+  '2027-01-13': {
+    kind: 'night', title: 'Night drill 2: on a work night', mins: 80,
+    why: 'A work night on purpose. Tomorrow you find out what a normal day feels like on broken sleep.',
+    blocks: [
+      { name: 'Before bed', items: [['Agree the shifts with her: who takes which hours once the baby is here', ''], ['Alarms every 2 hours, four times', ''], ['Keep tomorrow morning free of important meetings', '']] },
+      { name: 'Every alarm · 20 min out of bed', items: [['Up, diaper change, hold and burp, log it', ''], ['One alarm: make a bottle, or bring her water and a snack', ''], ["One alarm: soothe for the full 20 min with the 5 S's", '']] },
+    ],
+    note: 'Run it the way you would run a real night.',
+  },
   '2027-01-14': {
-    kind: 'practice', title: 'Bath, bottle, burp', mins: 25,
-    blocks: [{ name: 'Hands on', items: [['Watch a newborn bath video, set the tub up once', ''], ['Make one bottle start to finish, even if the plan is breast', ''], ['Practise 2 burping holds on the teddy', '']] }],
+    kind: 'talk', title: 'Debrief and the night plan', mins: 20,
+    blocks: [{ name: 'After the drill', items: [['How was work on that sleep? What got you through?', ''], ['Easier than drill 1? What changed?', ''], ['Write the night-shift plan on one page', ''], ['Early night', '']] }],
   },
   '2027-01-16': {
     kind: 'talk', title: 'Last date as two', mins: 180,
